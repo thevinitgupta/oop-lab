@@ -16,19 +16,18 @@ public class Userchoice {
         }
         return 1;
     }
-    public static void isAutomorphic(int num){ 
+    public static Boolean isAutomorphic(int num){ 
         int square = num * num;     
         while (num > 0)   
         {   
             if (num % 10 != square % 10){
-                System.out.println("Not an Automorphic Number!");
-                return;
+                return false;
             }
                
             num = num/10;   
             square = square/10;   
         }   
-        System.out.println("Not an Automorphic Number!");  
+        return true;  
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -43,7 +42,12 @@ public class Userchoice {
             case 2 :
                 System.out.println("Enter integer to check if it is Automorphic:");
                 int num = sc.nextInt();
-                isAutomorphic(num);
+                if(isAutomorphic(num)==true){
+                    System.out.println("It is an automorphic number!");
+                }
+                else {
+                    System.out.println("It is not an automorphic number!");
+                }
             break;
             default :
             System.out.println("Invalid Choice!");
