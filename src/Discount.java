@@ -1,5 +1,3 @@
-
-
 public class Discount {
     double amount = 0.0d,total = 0.0d;
     Discount(double amt){
