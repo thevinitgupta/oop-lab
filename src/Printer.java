@@ -39,6 +39,4 @@ public class Printer{
 		obj.sumSeries2(10,5);
 		obj.sumSeries3(7,7);
 	}
-	
-
 }
