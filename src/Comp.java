@@ -27,7 +27,10 @@ public class Comp {
     public static void main(String[] args) {
         Comp value = new Comp();
         value.compare("Vinit", "Shruti");
+        System.out.println("");
         value.compare('v', 'a');
+        System.out.println("");
         value.compare(345, -23);
+        System.out.println("");
     }
 }
