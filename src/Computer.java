@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 import java.lang.Math;
 public class Computer {
     void compute(int target,char choice){
