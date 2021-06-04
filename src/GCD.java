@@ -19,6 +19,6 @@ public class GCD {
         System.out.println(cal.findGCD(0, 2));
         System.out.println(cal.findGCD(-1,-1));
         System.out.println(cal.findGCD(40,60));
-        System.out.println(cal.findGCD(3,-1));
+        System.out.println(cal.findGCD(-3,-1));
     }
 }
