@@ -1,8 +1,9 @@
-import java.util.Calendar;
+
 public class Date {
     public static void main(String args[]) {
-        Calendar today = Calendar.getInstance();
-        System.out.println("Current Year :"+today.get(Calendar.YEAR));
-        System.out.println("Current Month :"+today.get(Calendar.MONTH));
+        java.util.Calendar today = java.util.Calendar.getInstance();
+        int month = today.get(java.util.Calendar.MONTH);
+        System.out.println("Current Year :"+today.get(java.util.Calendar.YEAR));
+        System.out.println("Current Month :"+ (month+1));
     }
 }
