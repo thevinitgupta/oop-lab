@@ -1,14 +1,12 @@
-/**
- * InnerLab5Q1
- */
+
 interface First {
     default void show(){
-        System.out.println("Default implementation of First Interface");
+        System.out.println("Default implementation of First Interface\n");
     }
 }
 interface Second {
     default void show(){
-        System.out.println("Default implementation of Second Interface");  
+        System.out.println("Default implementation of Second Interface\n");  
     }
 }
 

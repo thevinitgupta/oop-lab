@@ -16,9 +16,9 @@ class Calc {
 public class GCD {
     public static void main(String args[]) {
         Calc cal = new Calc();
-        System.out.println(cal.findGCD(0, 2));
-        System.out.println(cal.findGCD(-1,-1));
-        System.out.println(cal.findGCD(40,60));
-        System.out.println(cal.findGCD(-3,-1));
+        System.out.println("GCD of 0 and 2 is "+cal.findGCD(0, 2)+"\n");
+        System.out.println("GCD of -1 and -1 is "+cal.findGCD(-1,-1)+"\n");
+        System.out.println("GCD of 40 and 60 is "+cal.findGCD(40,60)+"\n");
+        System.out.println("GCD of -3 and -1 is "+cal.findGCD(-3,-1)+"\n");
     }
 }
