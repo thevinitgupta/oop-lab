@@ -1,0 +1,39 @@
+Answers : 
+
+1. d)public static final void main(String args[])
+Explanation : A Java program expects a static main method as it is called when the class is compiled without the creation of an object. So we cannot create a main function without the static keyword. Also, the when compiler starts compiling the program, it looks for a main method as the entry point, and other methods cannot be used as the entry point.
+
+2. a) The diagram demonstrates platform independence in Java.
+Explanation : The diagram demonstrates the various features of inheritance in Java. Platform independence is a feature of the compiler and has nothing to do with inheritance.
+
+3. c) .class
+Explanation : Java bytecode compiled files have an exntension of .class. This happens to implement modularity. The compiler separates each class in a Java file into separate .class files so that each can be called and used separately.
+
+5. a) Objects are grouped as procedures, separate from the data they act on.
+Explanation : Option A is incorrect as an object-oriented project tends to group data and the actions related to that data into a single object. This promotes security of data.
+
+6. d) Local Variables
+Explanation : Since Interface Variables need to be public to be overridden and Class and Instance vairables are accessible to multiple variables of a class.
+
+7. b) Java.lang
+Explanation : This package is imported by default as it contains support for most processes including Class and Object manipulation
+
+8. c) # Add configuration value
+Explanation : This is invalid as # is not a valid comment line character in Java.
+
+9. d) It may define at most one public class.
+Explanation : This is because the compiler starts executing from the public class. If there are more than one public classes, the compiler would throw an error as it cannot decide which one is the main class.
+
+10. b)2,2,1
+Explanation : Since the main method is not a static method, it can access both class (success and weight) and instance variables(ageMonths and ageDays).
+
+11. b)Unused import statements can be removed from the class without causing a class to become unable to be compiled.
+Explanation : This is true because the import is already unused so if it is removed it cannot effect the execution of a program
+
+12. a)It does not compile.
+Explanation : Since the main method is a static method, it does not have access to the non-static variables. So, when we try to access the variable birds, it is a compilation error.
+
+13. a)I only
+Explanation :java command runs both .class and .java files. javac command is used to compile .java files into .class files and then java command runs .class files. But, since Java 11, both can be done using only the java command.
+
+(For note : https://stackoverflow.com/a/58086598/16134700)
