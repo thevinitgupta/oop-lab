@@ -37,3 +37,52 @@ Explanation : Since the main method is a static method, it does not have access 
 Explanation :java command runs both .class and .java files. javac command is used to compile .java files into .class files and then java command runs .class files. But, since Java 11, both can be done using only the java command.
 
 (For note : https://stackoverflow.com/a/58086598/16134700)
+
+14. d)int facilityNumber
+Explanation : We cannot decalre a variable outside of a class declaration in Java.
+
+15. c)Packages allow you to limit access to classes, methods, or data from classes outside the package.
+Explanation : We can define protected classes that maybe be denied access from classes outside the package.
+
+16. b)javac Manager.java
+java Manager
+Explanation : This is the correct option as for the compilation of a .java file we need the whole file directory or path. But for the execution of a class file, we just need the name of the class.
+
+17. d) Encapsulation
+Explanation : In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
+
+18. d) It does not compile
+Explanation : It fails to compile as variables in Java have a block scope. As, height is defined inside the if block, and we try to access it outside the if block, the compiler throws an error and does not compile.
+
+19. a) It can be run on any computer with a compatible JVM.
+Explanation : bytecode files are files that need a JVM to run it. It does not need the source Java file. This makes the Bytecode file (.class) platform independent and can be run on any system as long as there is a JVM on that machine.
+
+20. d) A semicolon (;)
+Explanation : This is basic feature of a Java program. New line, colon  or tab characters are not valid line terminators in Java.
+
+21. Answer = 31
+Explanation : The instance tolls created in the main method is able to access the private static variable yesterday. This is because the main method is inside the Toll class and private variables can be accessed in the same class. And also, though we are making a static reference from the instance object, it does not give an error. It is more of a warning, but not an error.
+
+22. c)void errors() {}
+Explanation : This line does not give a compilation error as it is a valid method declaration. Line 1 does not have the class keyword. Line 2 has both double and int in the variable definition which is invalid. And in Line 4, the position of private keyword in in valid.
+
+23. d)Platform independence
+Explanation : Java compiler compiles the java file into a .class file which is bytecode file, which can be executed on any machine. This makes java programs platform independence.
+
+24. a)It prevents Java bytecode from being easily decoded/decompiled
+Explanation : The task of JVM is to convert to bytecode file to plain machine language. And the above statement is the opposite of this. Also, bytecode is very easily decodable.
+
+25. b)Class variables
+Explanation : This is because Class variables are static variables that can be accessed from any where inside the class. Local variables are accessible inside only a function and instance variables can only be accessed by certain instances. Package variables are not a thing.
+
+26. c) television.actor.Package
+Explanation : As the import statement "television.actor.*" specifies that all the classes in the television/actor location will be available. Option A is incorrect becuase is accesses a subclass and option B is incorrect because disctributors is wrong subdirectory.
+
+27. d) package statement, import statement, class declaration
+Explanation : Package statement must be first statement in the program even before the import statement.
+
+28. d)three
+Explanation : This is because java.lang is automatically imported, so we can remove the 1st and 3rd import statements. We can also remove the last import statement as "import start.*" imports all the classes in the stars package. So, we do not need to import the blackhole class explicitly
+
+29. c)java forest.Deer red deer white-tailed deer
+Explanation : This is because the args is a string array with elements separated by space. So, "white-tailer deer" is a single element. This makes options A,B and D wrong  
