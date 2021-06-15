@@ -108,4 +108,11 @@ Explanation : The comment line literal is "//". So any number of "/" after this 
 36. b)public static void main(String arguments)
 Explanation : This is invalid as the command line arguments variable must be a String array and not a single string value.
 
-37. 
+37. b)a2and a4
+Explanation : We cannot declare a public variable inside a function or method. This is because the public and private keywords are associated with classes. The variables inside a method are temporary, so making them public makes no sense. And also, a1 is not valid because we cannot declare vairables outside of a class definition.
+
+38. a) A class declaration
+Explanation : A valid java file is only executable with a class inside of it. The others are just used according to our needs.
+
+39. d).java
+Explanation : because we save java files as .java and it is then compiled into .class files.
