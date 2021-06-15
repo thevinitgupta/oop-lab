@@ -86,3 +86,26 @@ Explanation : This is because java.lang is automatically imported, so we can rem
 
 29. c)java forest.Deer red deer white-tailed deer
 Explanation : This is because the args is a string array with elements separated by space. So, "white-tailer deer" is a single element. This makes options A,B and D wrong  
+
+30. b)javac command compiles .java file into .class file
+Explanation : javac command is the execution of the java compiler. A compiler is used to convert high level language code into the closest to machine language code(which in this case is bytecode stored in the .class file)
+
+31. b)java allows method overloading
+Explanation : In java, we have a concept of method overloading in which we can use methods with the same name and almost same usage for various tasks depending on the different types of input. This feature is a very important one in real world simulation.
+
+32. d)package,class,long
+Explanation : Package is the best choice as we are not specifying any subclass or methods. Class is the only choice as it's method is private and we cannot define a private method inside an Interface as interfaces are used to implement public methods that can be reused when necessary. Lastly, we use long as the only other option is void and we can se the method returns a value which is 10.
+
+33. a)2 5
+Explanation : The value of start is 2 and irrespective of the value of x passed in the constructor, the value of end is always 4. So, the value of end-start = 2 and distance is 5.
+
+34. d)Developers minimize duplicate code in new classes by sharing a code in common parent class
+Explanation : The process of inheritance promotes code reusability by giving the child classes the ability to use the common code in the parent class. This helps in shorter and thus cleaner code.
+
+35. a)/////////Walk my dog
+Explanation : The comment line literal is "//". So any number of "/" after this will be a part of the comment. So it is valid.
+
+36. b)public static void main(String arguments)
+Explanation : This is invalid as the command line arguments variable must be a String array and not a single string value.
+
+37. 
