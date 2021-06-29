@@ -5,11 +5,7 @@ class MyThread extends Thread {
     public void run(){
         int counter = 1;
         while(true){
-            System.out.println(counter++);
-            try {
-                MyThread.sleep(1000);
-            } catch (Exception e) {
-            }
+            System.out.println("My Thread : "+counter++);
         }
     }
 }
@@ -19,7 +15,11 @@ public class T1 {
         MyThread t = new MyThread("My_Thread");
 
         //this stops the execution as soon as the main thread stops
-        t.setDaemon(true);
         t.start();
+        int counter = 1;
+        while(true){
+            System.out.println("Main : "+counter++);
+            Thread.yield();
+        }
     }
 }
