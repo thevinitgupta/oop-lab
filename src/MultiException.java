@@ -12,6 +12,7 @@ public class MultiException {
             switch (val) {
                 case 0:
                     res = n/val;
+                    System.out.println("result = "+res);
                     break;
                 case 1 :
                     String s = null;
