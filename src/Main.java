@@ -27,6 +27,22 @@ class Outer {
     }
 }
 
+class Persona {
+    String name;
+    int age;
+    Persona(String n, int a){
+        this.name = n;
+        this.age = a;
+    }
+    void walk(){
+        System.out.println(name+" is walking!");
+    }
+    //! method overloading or polymorphism
+    void walk(int steps){
+        System.out.println(name+" is walking "+steps+" steps!");
+    }
+}
+
 public class Main {
     public static void main(String args[]) {
         Outer out = new Outer();
@@ -34,5 +50,8 @@ public class Main {
         System.out.println();
         MyOuter mOut =new MyOuter();
         mOut.meth();
+        Persona p1 = new Persona("Vinit",20);
+        p1.walk();
+        p1.walk(30);
     }
 }
