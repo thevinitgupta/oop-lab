@@ -15,8 +15,8 @@ public class MultiException {
                     System.out.println("result = "+res);
                     break;
                 case 1 :
-                    String s = null;
-                    System.out.println(s.charAt(val));
+                    String str = null;
+                    System.out.println(str.charAt(1));
                 default:
                     System.out.println("No Exception!");
                     break;

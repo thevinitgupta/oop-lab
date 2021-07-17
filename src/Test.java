@@ -11,13 +11,16 @@ public class Test {
         System.out.println(distace);
     }
     public static void main(String args[]){
-       int c =1,s=0,r=0,n=3;
-       do{
-           s = n+1;
-           r = r*s +1;
-           c++;
-       }while(c!=n);
-       System.out.println(s);
-       System.out.println(r);
+       MyDLL m = new MyDLL();
+        m.add(5);
+        m.print();
+        m.add(6);
+        m.print();
+        m.add(12);
+        m.print();
+        m.add(8);
+        m.print();
+        m.add(0);
+        m.print();
     }
 }

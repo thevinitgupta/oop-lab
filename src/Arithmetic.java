@@ -13,6 +13,9 @@ public class Arithmetic {
             if(b==0){
                 throw new ArithmeticException();
             }
+            else if(b==1){
+                
+            }
             else {
                 c = a/b;
                 System.out.println("Value = "+c);
