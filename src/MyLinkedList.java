@@ -45,6 +45,15 @@ public class MyLinkedList {
         prev.next = next.next;
         
     }
+    public void deleteAt(int position){
+        int count =1;
+        Node temp = head;
+        while(count!=position){
+            temp = temp.next;
+            count++;
+        }
+        delete(temp.data);
+    }
     public void print(){
         Node temp = head;
         while(temp.next!=null){
